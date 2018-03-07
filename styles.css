@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great" );
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+body{
+    font-family: 'Oswald', sans-serif;
+}
+#line-head {
+    background: #767676;
+    border-bottom: 2px solid #ff5d12;
+    width: 100%;
+    height: 15px;
+}
+#gran-obtic {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+}
+#min-obtic {
+    display: none;
+}
+#head {
+    background: #AB0126;
+    height: 214px;
+}
+#head h1, #head h2 {
+    color: white;
+}
+#head h2 {
+    font-size: 1.6em;
+}
+#title-top {
+    display: block;
+    max-width: 500px;
+    margin: 1em auto 0;
+}
+h1,h2,h3,h4,h5, #main-menu {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+p {
+    line-height: 1.7;
+}
+
+#main-menu {
+    max-width: 460px;
+    text-align: center;
+    padding: 0;
+    margin: 1em 0;
+}
+
+#main-menu #left {
+    background: url("img/nav-left.png") no-repeat 0 center;
+    background-size: 17px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -7px;
+    height: 45px;
+    width: 17px;
+}
+
+#main-menu #right {
+    background: url("img/nav-right.png") no-repeat 0 center;
+    background-size: 56px;
+    display: inline-block;
+    margin-left: -7px;
+    vertical-align: top;
+    height: 45px;
+    width: 55px;
+}
+
+#main-menu #left, #main-menu #right, #main-menu ul {
+    box-shadow: 7px 6px 8px rgba(80,80,80,.5);
+}
+
+#main-menu ul {
+    background: #767676;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+}
+
+#main-menu ul li {
+    display: inline-block;
+}
+#main-menu ul li a {
+    color: #FFF;
+    display: block;
+    font-size: 1.3em;
+    padding: 8px 20px;
+}
+#main-menu ul li a:hover {
+    cursor: pointer;
+}
+
+#welcome img {
+    display: block;
+    margin: 1.2em auto;
+}
+
+#welcome h2 {
+    color: #b92a39;
+
+}
+#welcome p {
+    font-size: 1.1em;
+}
+
+.title-section {
+    background: url("img/line-title.jpg") repeat-x 0 60%;
+    color: #b92a39;
+    margin-bottom: 2em;
+}
+
+.title-section span {
+    background: white;
+    padding: 0 25px;
+}
+.portfolio {
+    margin: 1em 0;
+}
+.portfolio h4 {
+    color: #7a7a7a;
+    border-bottom: 1px dotted #e4e4e4;
+    width: 100%;
+}
+.portfolio img {
+    display: block;
+    margin: 1em auto;
+    max-width: 250px;
+    width: 100%;
+}
+#cont-foot {
+    overflow: hidden;
+}
+#wing {
+    border-bottom: 30px solid #1A1A1A;
+    border-left: 60px solid transparent;
+    border-right:600px solid transparent;
+    border-top:1px solid transparent;
+    height: 0;
+    width: 1px;
+    margin-left: 2em;
+}
+#foot {
+    background: #1A1A1A;
+    border-bottom: 4px solid #ff5d12;
+    font-size: 0.8em;
+    padding: 1.5em 0;
+}
+#foot p {
+    margin-top: 1em;
+    color: #FFFFFF;
+}
+.maxi {
+    max-width: 150px;
+    width: 100%;
+}
+@media only screen and (max-width : 768px ) {
+    #gran-obtic {
+        display: none;
+    }
+    #min-obtic {
+        display: block;
+        max-width: 180px;
+        width: 100%;
+        margin: 1em auto;
+    }
+}
+@media only screen and (max-width : 574px ) {
+    #title-top {
+        display: block;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    #title-top .display-4 {
+    font-size: 2.5rem;
+    }
+    #min-obtic {
+        display: block;
+        max-width: 70px;
+        width: 100%;
+        margin: 0.5em auto;
+    }
+}
+@media only screen and (max-width : 470px ) {
+    #main-menu {
+        margin: 0.5em 0;
+    }
+    #main-menu #left {
+        background: url("img/nav-left.png") no-repeat 0 center;
+        background-size: 17px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: -7px;
+        height: 45px;
+        width: 17px;
+    }
+
+    #main-menu #right {
+        display: none;
+    }
+    #main-menu ul {
+        background: #767676;
+        display: inline-block;
+        vertical-align: top;
+        list-style: none;
+        height: 45px;
+        padding: 0;
+        margin: 0;
+    }
+    .title-section {
+        margin-bottom: 1em;
+    }
+    #main-menu ul li {
+        display: inline-block;
+    }
+    #main-menu ul li a {
+        color: #FFF;
+        display: block;
+        font-size: 1.2em;
+        padding: 8px 8px;
+    }
+    #wing {
+        border-bottom: 20px solid #1A1A1A;
+        border-left: 50px solid transparent;
+        border-right:200px solid transparent;
+        border-top:1px solid transparent;
+        height: 0;
+        width: 1px;
+        margin-left: 0em;
+    }
+    #foot p {
+        margin-top: 0;
+        color: #FFFFFF;
+    }
+
+}
